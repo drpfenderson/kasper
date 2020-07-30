@@ -1,6 +1,7 @@
 # Kasper
 
-> This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 
+This is a port of Ghost's default theme [Casper v1](https://github.com/tryghost/casper) for Jekyll. Here is a live [demo](https://rosario.io/kasper). 
+
 Feel free to fork, change, modify and re-use it.
 
 ## Installation
@@ -8,7 +9,16 @@ Feel free to fork, change, modify and re-use it.
     git clone https://github.com/rosario/kasper.git
     cd kasper
     gem install jekyll
-    gem install pygments.rb
+    gem install jekyll-paginate
+    
+## Change _config.yml
+
+Change the following settings in _config.yaml. Most likely you want the `baseurl: ""`
+
+```
+baseurl: ""
+domain_name: "yourblog-domain.com"
+```
 
 ## How to use it
 
